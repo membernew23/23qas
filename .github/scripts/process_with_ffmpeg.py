@@ -32,8 +32,8 @@ print(f"Using video: {video_file}")
 
 # Process each segment
 for i, segment in enumerate(segments, 1):
-    start_time = segment['start_time']
-    end_time = segment['end_time']
+    start_time = segment['start']
+    end_time = segment['end']
     
     output_file = f"shorts/{VIDEO_ID}_short_{i:02d}.mp4"
     
